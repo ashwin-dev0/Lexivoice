@@ -1,0 +1,13 @@
+export type Level='Beginner'|'Intermediate'|'Advanced';
+export type Word={word:string;level:Level;definition:string;example:string;synonyms:string[];prompt:string};
+export const WORDS:Word[]=[
+{word:'resilient',level:'Beginner',definition:'able to recover quickly from difficulty or change',example:'The resilient team recovered after a difficult week.',synonyms:['strong','adaptable','tough'],prompt:'Describe a resilient person or situation.'},
+{word:'concise',level:'Beginner',definition:'giving a lot of information clearly in only a few words',example:'Her concise explanation made the idea easy to understand.',synonyms:['brief','succinct','compact'],prompt:'Give a concise description of your day.'},
+{word:'vivid',level:'Beginner',definition:'producing powerful, clear images or feelings in the mind',example:'He gave a vivid description of the mountain sunrise.',synonyms:['striking','graphic','lively'],prompt:'Use vivid in a sentence about a memory.'},
+{word:'meticulous',level:'Intermediate',definition:'very careful and precise about small details',example:'The engineer kept meticulous records of every test.',synonyms:['careful','thorough','precise'],prompt:'Tell me about something that requires meticulous work.'},
+{word:'pragmatic',level:'Intermediate',definition:'dealing with problems in a practical way rather than relying on theory',example:'They chose a pragmatic solution that could be shipped quickly.',synonyms:['practical','realistic','sensible'],prompt:'Use pragmatic in a sentence about solving a problem.'},
+{word:'ambiguous',level:'Intermediate',definition:'open to more than one interpretation; not completely clear',example:'The ambiguous instructions caused two teams to act differently.',synonyms:['unclear','vague','equivocal'],prompt:'Describe something that could be ambiguous.'},
+{word:'ubiquitous',level:'Advanced',definition:'present or found everywhere',example:'Smartphones have become ubiquitous in modern life.',synonyms:['omnipresent','pervasive','widespread'],prompt:'Name something you consider ubiquitous and explain why.'},
+{word:'perspicacious',level:'Advanced',definition:'having a ready insight into things; perceptive and discerning',example:'Her perspicacious questions exposed the flaw in the proposal.',synonyms:['perceptive','discerning','astute'],prompt:'Use perspicacious to describe someone’s judgment.'},
+{word:'ameliorate',level:'Advanced',definition:'to make a bad or difficult situation better',example:'The changes were designed to ameliorate long waiting times.',synonyms:['improve','alleviate','mitigate'],prompt:'What action could ameliorate a common everyday problem?'}
+];
